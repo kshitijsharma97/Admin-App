@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "77046457820",
+    "firebase_url": "https://wripe-9ff94.firebaseio.com",
+    "project_id": "wripe-9ff94",
+    "storage_bucket": "wripe-9ff94.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:77046457820:android:927a13325425daf0",
+        "android_client_info": {
+          "package_name": "in.wripe.wripe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "77046457820-d0r2dflfbnps41d9ffhr77aop5ijcbg5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDs5M9I14YGO9YdEnoGij6_rSLt2bE0taQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

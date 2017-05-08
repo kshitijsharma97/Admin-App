@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/ContactNo"
+
+        android:text="Contact No: "
+        android:layout_width="300dp"
+        android:textSize="20dp"
+        android:layout_height="25dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/Type"
+        android:text="Type: "
+        android:layout_below="@+id/ContactNo"
+        android:layout_width="200dp"
+        android:textSize="20dp"
+        android:layout_height="25dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="59dp" />
+
+    <TextView
+        android:id="@+id/Quality"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:text="Quality: "
+        android:layout_below="@+id/Type"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="98dp" />
+
+    <TextView
+        android:id="@+id/Quantity"
+        android:layout_below="@+id/Quality"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:text="Quantity: "
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="142dp" />
+
+    <EditText
+        android:id="@+id/Response"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="35dp"
+        android:hint="Response"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/URL"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="181dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:id="@+id/Submit"
+        android:layout_below="@+id/Response"
+        android:layout_alignEnd="@+id/Response" />
+
+    <TextView
+        android:id="@+id/URL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="0dp"
+        android:text="Image"
+        android:layout_below="@+id/Quantity"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/Date"
+        android:textSize="20dp"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/URL"
+        android:text="Date:" />
+
+</RelativeLayout>
